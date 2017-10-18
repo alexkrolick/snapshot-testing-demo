@@ -1,6 +1,17 @@
-# Snapshot-Driven Development
+## Oh snap, snapshots! Unit & integration testing with Jest & Enzyme
 
-Snapshotting as a development tool rather than a testing methodology.
+
+## Snapshot-Driven Development
+
+Images 1-14
+
+## Test Markers
+
+### Styled Components
+
+## Testing Behavior
+
+## When to use snapshots
 
 - https://tinyletter.com/kentcdodds/letters/effective-snapshot-testing
 - https://www.briefs.fm/3-minutes-with-kent/49
@@ -17,5 +28,3 @@ yarn add --dev react-test-renderer jest enzyme enzyme-adapter-react-16 jest-enzy
 Follow the [Enzyme setup][enzyme-setup] instructions for your environment.
 
 [enzyme-setup]: https://github.com/blainekasten/enzyme-matchers/tree/master/packages/jest-enzyme#setup
-
-## 
