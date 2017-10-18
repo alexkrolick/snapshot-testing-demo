@@ -9,8 +9,8 @@ it("should render signed out by default", () => {
 
   const deep = mount(<Header />);
   const markers = {
-    in: deep.find("[data-test-signedin]"),
-    out: deep.find("[data-test-signedout]")
+    in: deep.find({"data-test":"signedin"}),
+    out: deep.find({"data-test":"signedout"})
   };
   expect(markers.in).toHaveLength(0);
   expect(markers.out).toHaveLength(1);
@@ -22,8 +22,8 @@ it("should render signed in", () => {
   
   const deep = mount(<Header signedIn />);
   const markers = {
-    in: deep.find("[data-test-signedin]"),
-    out: deep.find("[data-test-signedout]")
+    in: deep.find({"data-test":"signedin"}),
+    out: deep.find({"data-test":"signedout"})
   };
   expect(markers.in).toHaveLength(1);
   expect(markers.out).toHaveLength(0);
