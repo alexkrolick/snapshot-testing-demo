@@ -4,20 +4,7 @@ exports[`renders without crashing 1`] = `
 <div
   className="App"
 >
-  <header
-    className="App-header"
-  >
-    <img
-      alt="logo"
-      className="App-logo"
-      src="logo.svg"
-    />
-    <h1
-      className="App-title"
-    >
-      Welcome to React
-    </h1>
-  </header>
+  <div />
   <p
     className="App-intro"
   >
