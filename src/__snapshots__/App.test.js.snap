@@ -4,7 +4,7 @@ exports[`renders without crashing 1`] = `
 <div
   className="App"
 >
-  <div />
+  <Header />
   <p
     className="App-intro"
   >

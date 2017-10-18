@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render signed in 1`] = `
+<div>
+  <SignedIn />
+</div>
+`;
+
+exports[`should render signed out by default 1`] = `
+<div>
+  <SignedOut />
+</div>
+`;

@@ -11,7 +11,7 @@ Snapshotting as a development tool rather than a testing methodology.
 ## Adding Jest & Enzyme
 
 ```
-yarn add --dev react-test-renderer jest enzyme jest-enzyme
+yarn add --dev react-test-renderer jest enzyme enzyme-adapter-react-16 jest-enzyme enzyme-to-json
 ```
 
 Follow the [Enzyme setup][enzyme-setup] instructions for your environment.
